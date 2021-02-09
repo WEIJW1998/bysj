@@ -34,4 +34,7 @@ class Spider51JobItem(scrapy.Item):
     # 职位福利
     job_welfare = scrapy.Field()
 
+    # 总页码数
+    total_page = scrapy.Field()
+
     # pass

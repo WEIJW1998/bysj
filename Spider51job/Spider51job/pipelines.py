@@ -55,7 +55,7 @@ class Spider51JobPipeline:
                   )
 
         # Sql语句
-        sql = "insert into qcwytest(" \
+        sql = "insert into qcwytable(" \
             "job_name,"\
             "company_name," \
             "companysize," \
