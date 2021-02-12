@@ -200,7 +200,7 @@ class QcwySpider(scrapy.Spider):
 
            "https://search.51job.com/list/080200,000000,0000,00,9,99,+,2,",
 
-           "https://search.51job.com/list/070200,000000,0000,00,9,99,+,2,",
+           "https://search.51job.com/list/080900,000000,0000,00,9,99,+,2,",
 
            "https://search.51job.com/list/081600,000000,0000,00,9,99,+,2,",
 
@@ -283,6 +283,8 @@ class QcwySpider(scrapy.Spider):
            "https://search.51job.com/list/130400,000000,0000,00,9,99,+,2,",
 
            "https://search.51job.com/list/130900,000000,0000,00,9,99,+,2,",
+
+           "https://search.51job.com/list/080900,000000,0000,00,9,99,+,2,",
 
            "https://search.51job.com/list/170500,000000,0000,00,9,99,+,2,",
 
@@ -391,8 +393,6 @@ class QcwySpider(scrapy.Spider):
            "https://search.51job.com/list/150500,000000,0000,00,9,99,+,2,",
 
            "https://search.51job.com/list/220700,000000,0000,00,9,99,+,2,",
-
-           "https://search.51job.com/list/070200,000000,0000,00,9,99,+,2,",
 
            "https://search.51job.com/list/070900,000000,0000,00,9,99,+,2,",
 
