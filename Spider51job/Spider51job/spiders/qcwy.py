@@ -762,7 +762,6 @@ class QcwySpider(scrapy.Spider):
     #     'https://search.51job.com/list/000000,000000,0000,00,9,99,+,2,1.html']
 
     def parse(self, response):
-
         # selectors = response.xpath('//div[@class="j_joblist"]/div[@class="e"]/a[@class="el"]/p/span[@class="jname at"]/text()'
 
         try:
@@ -830,7 +829,8 @@ class QcwySpider(scrapy.Spider):
             # item_job_welfare = job_welfare
 
             MaxPage = int(total_page[0])
-            if self.offset < MaxPage:
+            # MaxPage = 1
+            if self.offset <= MaxPage:
                 self.offset += 1
                 url = self.baseURL + str(self.offset) + ".html"
                 yield scrapy.Request(url, callback=self.parse)

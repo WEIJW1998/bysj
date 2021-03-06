@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全国</title>
+
+    <style>
+        a{text-decoration: none;}
+    </style>
+
+
+</head>
+<body>
+<h1 align="center">全国</h1>
+    <table align="center" width="600px" height="400px">
+        <tr><td><a href={% url '中国各地区岗位数量分布地图' %}>中国各地区岗位数量分布地图</a></td></tr>
+        <tr><td><a href={% url '中国各地区高等教育岗位数量分布地图' %}>中国各地区高等教育岗位数量分布地图</a></td></tr>
+        <tr><td><a href={% url '中国各地区普通教育岗位数量分布地图' %}>中国各地区普通教育岗位数量分布地图</a></td></tr>
+        <tr><td><a href={% url '中国各地区岗位数量条形图' %}>中国各地区岗位数量条形图</a></td></tr>
+        <tr><td><a href={% url '中国各工资占比饼图' %}>中国各工资占比饼图</a></td></tr>
+        <tr><td>
+            <form action="http://127.0.0.1:8000/index/diqu/">
+                <input type="submit" value="地区" style="font-size : 20px; border:0;cursor:pointer;width:100px;height:60px;" />
+            </form>
+        </td></tr>
+    </table>
+</body>
+</html>

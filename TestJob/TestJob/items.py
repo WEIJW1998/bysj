@@ -16,7 +16,7 @@ class Spider51JobItem(scrapy.Item):
     # 公司名称
     company_name = scrapy.Field()
 
-    # 公司规模
+    # 公司名称
     companysize = scrapy.Field()
 
     # 城市

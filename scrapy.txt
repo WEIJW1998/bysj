@@ -1,0 +1,6 @@
+
+1、新建项目：
+scrapy startproject 项目名
+
+2、创建爬虫
+scrapy genspider qcwy 51job.com

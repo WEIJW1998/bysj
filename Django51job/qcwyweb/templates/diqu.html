@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地区</title>
+
+    <style>
+        a:link {
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+        }
+        a:visited {
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+        }
+        a:hover {
+        font-size: 20px;
+        color: #999999;}
+        a{text-decoration: none;}
+    </style>
+
+</head>
+<body>
+<h1 align="center">地区</h1>
+    <table align="center" width="800px" height="700px">
+        <tr>
+            <td colspan="6" align="center">
+                <table width=100% height=100%>
+                    <tr>
+                        <td align="center"><a href={% url 'beijing' %}>北京</a></td>
+                        <td align="center"><a href={% url 'shanghai' %}>上海</a></td>
+                        <td align="center"><a href={% url 'guangzhou' %}>广州</a></td>
+                        <td align="center"><a href={% url 'shenzhen' %}>深圳</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><a href={% url 'tianjin' %}>天津</a></td>
+            <td align="center"><a href={% url 'chongqing' %}>重庆</a></td>
+            <td align="center"><a href={% url 'neimenggu' %}>内蒙古</a></td>
+            <td align="center"><a href={% url 'guangxi' %}>广西</a></td>
+            <td align="center"><a href={% url 'xizang' %}>西藏</a></td>
+            <td align="center"><a href={% url 'ningxia' %}>宁夏</a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href={% url 'hebei' %}>河北</a></td>
+            <td align="center"><a href={% url 'xinjiang' %}>新疆</a></td>
+            <td align="center"><a href={% url 'shanxi' %}>山西</a></td>
+            <td align="center"><a href={% url 'liaoning' %}>辽宁</a></td>
+            <td align="center"><a href={% url 'jilin' %}>吉林</a></td>
+            <td align="center"><a href={% url 'heilongjiang' %}>黑龙江</a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href={% url 'jiangsu' %}>江苏</a></td>
+            <td align="center"><a href={% url 'zhejiang' %}>浙江</a></td>
+            <td align="center"><a href={% url 'anhui' %}>安徽</a></td>
+            <td align="center"><a href={% url 'fujian' %}>福建</a></td>
+            <td align="center"><a href={% url 'jiangxi' %}>江西</a></td>
+            <td align="center"><a href={% url 'shandong' %}>山东</a></td>
+        </tr>
+        <tr>
+            <td align="center"><a href={% url 'henan' %}>河南</a></td>
+            <td align="center"><a href={% url 'hubei' %}>湖北</a></td>
+            <td align="center"><a href={% url 'hunan' %}>湖南</a></td>
+            <td align="center"><a href={% url 'guangdong' %}>广东</a></td>
+            <td align="center"><a href={% url 'hainan' %}>海南</a></td>
+            <td align="center"><a href={% url 'sichuan' %}>四川</a></td>
+        </tr>
+        <tr>
+            <td colspan="6" align="center">
+                <table width=100% height=100%>
+                    <tr>
+                        <td align="center"><a href={% url 'guizhou' %}>贵州</a></td>
+                        <td align="center"><a href={% url 'yunnan' %}>云南</a></td>
+                        <td align="center"><a href={% url 'shanxi' %}>陕西</a></td>
+                        <td align="center"><a href={% url 'gansu' %}>甘肃</a></td>
+                        <td align="center"><a href={% url 'qinghai' %}>青海</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="6" align="center">
+            <form action="http://127.0.0.1:8000/index/quanguo/">
+                <input type="submit" value="全国" style="font-size : 20px; border:0;cursor:pointer;width:100px;height:60px;" />
+            </form>
+        </td></tr>
+
+    </table>
+</body>
+</html>
