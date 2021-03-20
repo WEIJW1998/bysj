@@ -1,0 +1,15 @@
+北京
+SELECT experience ,count(*) as aaa FROM qcwy_all where province = '北京' GROUP BY experience order by aaa DESC limit 8;
+
+all
+SELECT experience ,count(*) as aaa FROM qcwy_all where province = '天津' and experience <> '大专' and experience <> '本科' GROUP BY experience order by aaa DESC limit 8;
+
+
+
+
+
+
+
+
+
+
