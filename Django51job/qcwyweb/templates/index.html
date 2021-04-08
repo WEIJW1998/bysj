@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>AlphaAdmin</title>
+	<title>招聘信息数据分析</title>
 	<link rel="stylesheet" type="text/css" href="/static/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/static/assets/css/bootstrap-table.min.css">
 	<link rel="stylesheet" type="text/css" href="/static/assets/css/iconfont.css">
@@ -42,67 +42,67 @@
 						</a>
 						<ul class="treeview-menu">
 							<li>
-								<a href="#">
+								<a href={% url '全国各地区岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国各地区高等教育岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>高等教育分布地图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国各地区普通教育岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>普通教育分布地图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国各地区岗位数量条形图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位条形图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国各地区岗位数量折线图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位折线图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资饼图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国城市词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>城市词云图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国公司待遇词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司待遇词云图</small>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href={% url '全国热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -130,31 +130,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '北京岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '北京各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '北京公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '北京经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '北京热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -172,31 +172,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '上海岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '上海各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '上海公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '上海经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '上海热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -214,31 +214,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广州岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广州各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广州公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广州经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广州热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -256,31 +256,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '深圳岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '深圳各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '深圳公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '深圳经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '深圳热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -298,31 +298,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '天津岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '天津各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '天津公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '天津经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '天津热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -330,7 +330,7 @@
 								</ul>
 							</li>
 
-							<li class="treeview">
+                            <li class="treeview">
 								<a href="#">
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>重庆</small>
@@ -340,45 +340,34 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '重庆岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
-											<small>三级菜单</small>
-											<span class=" pull-right">
-												<i class="iconfont icon-menu-left-small"></i>
-											</span>
+											<small>岗位分布地图</small>
 										</a>
-										<ul class="treeview-menu">
-											<li class="treeview">
-												<a href="#">
-													<i class="iconfont icon-circle-hollow"></i>
-													<small>岗位分布地图</small>
-												</a>
-											</li>
-											<li class="treeview">
-												<a href="#">
-													<i class="iconfont icon-circle-hollow"></i>
-													<small>工资占比饼图</small>
-												</a>
-											</li>
-											<li class="treeview">
-												<a href="#">
-													<i class="iconfont icon-circle-hollow"></i>
-													<small>公司规模象型图</small>
-												</a>
-											</li>
-											<li class="treeview">
-												<a href="#">
-													<i class="iconfont icon-circle-hollow"></i>
-													<small>经验要求漏斗图</small>
-												</a>
-											</li>
-											<li class="treeview">
-												<a href="#">
-													<i class="iconfont icon-circle-hollow"></i>
-													<small>热门行业词云图</small>
-												</a>
-											</li>
-										</ul>
+									</li>
+									<li class="treeview">
+										<a href={% url '重庆各工资占比饼图' %}>
+											<i class="iconfont icon-circle-hollow"></i>
+											<small>工资占比饼图</small>
+										</a>
+									</li>
+									<li class="treeview">
+										<a href={% url '重庆公司规模象型柱图' %}>
+											<i class="iconfont icon-circle-hollow"></i>
+											<small>公司规模象型图</small>
+										</a>
+									</li>
+									<li class="treeview">
+										<a href={% url '重庆经验要求漏斗图' %}>
+											<i class="iconfont icon-circle-hollow"></i>
+											<small>经验要求漏斗图</small>
+										</a>
+									</li>
+									<li class="treeview">
+										<a href={% url '重庆热门行业词云图' %}>
+											<i class="iconfont icon-circle-hollow"></i>
+											<small>热门行业词云图</small>
+										</a>
 									</li>
 								</ul>
 							</li>
@@ -393,31 +382,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '内蒙古岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '内蒙古各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '内蒙古公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '内蒙古经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '内蒙古热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -435,31 +424,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广西岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广西各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广西公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广西经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '广西热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -477,31 +466,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '西藏岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '西藏各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '西藏公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '西藏经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '西藏热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -519,31 +508,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '宁夏岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '宁夏各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '宁夏公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '宁夏经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '宁夏热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -561,31 +550,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '河北岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '河北各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '河北公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '河北经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '河北热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -603,31 +592,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '新疆岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '新疆各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '新疆公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '新疆经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '新疆热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -645,31 +634,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '山西岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '山西各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '山西公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '山西经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '山西热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -688,31 +677,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '辽宁岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '辽宁各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '辽宁公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '辽宁经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '辽宁热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -731,31 +720,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '吉林岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '吉林各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '吉林公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '吉林经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '吉林热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -774,31 +763,31 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '黑龙江岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '黑龙江各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '黑龙江公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '黑龙江经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '黑龙江热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
@@ -817,38 +806,37 @@
 								</a>
 								<ul class="treeview-menu">
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '江苏岗位数量分布地图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>岗位分布地图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '江苏各工资占比饼图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>工资占比饼图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '江苏公司规模象型柱图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>公司规模象型图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '江苏经验要求漏斗图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>经验要求漏斗图</small>
 										</a>
 									</li>
 									<li class="treeview">
-										<a href="#">
+										<a href={% url '江苏热门行业词云图' %}>
 											<i class="iconfont icon-circle-hollow"></i>
 											<small>热门行业词云图</small>
 										</a>
 									</li>
 								</ul>
 							</li>
-					</li>
 
 
 					<li class="treeview">
@@ -861,31 +849,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '浙江岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '浙江各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '浙江公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '浙江经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '浙江热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -904,31 +892,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '安徽岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '安徽各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '安徽公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '安徽经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '安徽热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -947,31 +935,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '福建岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '福建各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '福建公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '福建经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '福建热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -990,31 +978,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '江西岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '江西各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '江西公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '江西经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '江西热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1033,31 +1021,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '山东岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '山东各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '山东公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '山东经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '山东热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1076,31 +1064,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '河南岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '河南各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '河南公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '河南经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '河南热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1119,31 +1107,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖北岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖北各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖北公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖北经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖北热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1162,31 +1150,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖南岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖南各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖南公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖南经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '湖南热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1205,31 +1193,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '海南岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '海南各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '海南公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '海南经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '海南热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1248,31 +1236,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '四川岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '四川各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '四川公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '四川经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '四川热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1291,31 +1279,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '贵州岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '贵州各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '贵州公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+                                <a href={% url '贵州经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '贵州热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1334,31 +1322,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '云南岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '云南各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '云南公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '云南经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '云南热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
@@ -1377,31 +1365,31 @@
 						</a>
 						<ul class="treeview-menu">
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '青海岗位数量分布地图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>岗位分布地图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '青海各工资占比饼图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>工资占比饼图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '青海公司规模象型柱图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>公司规模象型图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '青海经验要求漏斗图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>经验要求漏斗图</small>
 								</a>
 							</li>
 							<li class="treeview">
-								<a href="#">
+								<a href={% url '青海热门行业词云图' %}>
 									<i class="iconfont icon-circle-hollow"></i>
 									<small>热门行业词云图</small>
 								</a>
